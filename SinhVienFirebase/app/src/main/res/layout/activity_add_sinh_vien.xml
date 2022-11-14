@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AddSinhVien"
+    tools:ignore="HardcodedText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm sinh viên"
+        android:background="#00fa9a"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editT_name_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:hint="Nhập tên">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editT_tenTinh_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:hint="Nhập lớp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editT_tenTinh_add1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editT_gia_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:hint="Nhập mã sinh viên">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editT_gia_add1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editT_anh_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:hint="Đính kèm ảnh">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editT_anh_add1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99FFFF"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:text="Save"
+        android:id="@+id/button_save"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/boder_button"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:text="Back"
+        android:id="@+id/button_back"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/boder_button"        />
+
+</LinearLayout>

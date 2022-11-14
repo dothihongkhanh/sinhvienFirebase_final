@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61644851290",
+    "firebase_url": "https://dbsinhvienhk-default-rtdb.firebaseio.com",
+    "project_id": "dbsinhvienhk",
+    "storage_bucket": "dbsinhvienhk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61644851290:android:3b033514bd2667b74e3063",
+        "android_client_info": {
+          "package_name": "com.example.sinhvienfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61644851290-1p7v6dmcot740eb1is3cbqtlf1ocs6r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PmYcODxf_AXxzMXwaZkp7YYZDtSWfQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61644851290-1p7v6dmcot740eb1is3cbqtlf1ocs6r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
